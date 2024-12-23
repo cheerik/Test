@@ -27,7 +27,7 @@ public class Альтернативное_ТЗ {
                     int num1 = Integer.parseInt(num);
                     int num2 = Integer.parseInt(num3);
                     int sum = 0;
-                    boolean bool = num1 <= 10 && num2 <= 10;
+                    boolean bool = num1 <= 10 && num2 <= 10 && num1 != 0 && num2 != 0;
                     if (bool) {
                         switch (mt.group(2)) {
                             case "+":
